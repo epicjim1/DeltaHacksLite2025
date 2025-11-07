@@ -1,0 +1,43 @@
+# --- Python / Backend ---
+# This ignores the venv folder inside the backend folder
+
+backend/venv/
+
+# This ignores pycache folders anywhere in the project
+
+**/pycache/
+*.pyc
+
+# --- Node.js / Frontend ---
+# This ignores node_modules inside the frontend folder
+
+frontend/node_modules/
+
+# This ignores the build folder inside the frontend folder
+
+frontend/build/
+
+# This ignores coverage reports inside the frontend folder
+
+frontend/coverage/
+
+# Other React-specific files
+
+frontend/.pnp
+frontend/.pnp.js
+
+# --- Environment Files ---
+# Ignore all .env files in any directory
+
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# --- IDE / OS Files ---
+# These are ignored from the root
+
+.vscode/
+.idea/
+.DS_Store
